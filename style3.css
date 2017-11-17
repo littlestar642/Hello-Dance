@@ -1,0 +1,20 @@
+h1{
+    animation-name: dance;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+
+
+}
+
+@keyframes dance{
+    from{
+        background-color: red;
+    }
+    to{
+        transform: scale(2,2);
+        transform: rotate(360deg);
+    }
+
+}
